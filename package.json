@@ -12,8 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "lite-server": "^2.3.0",
     "node-sass": "^4.7.2"
+=======
+    "lite-server": "^2.6.1"
+>>>>>>> 0ff847e7e42e10a56baeb654308b79d8a5c586f5
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
