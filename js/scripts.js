@@ -10,6 +10,17 @@ $("#carouselButton").click(function(){
     $("#carouselButton").children("span").addClass('fa-pause');                    
     }
 });    
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
+
+
+
+// Get the modal
+var modal = document.getElementById('id01', 'reserveModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+    modal.style.display = "none";
+    }
+}
+
+
